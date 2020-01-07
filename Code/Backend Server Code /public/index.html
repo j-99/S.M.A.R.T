@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<!-- Developed by J-99-->
+
+<html>
+<head>
+	<title>S.M.A.R.T Robot Dashboard</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+	<h1> S.M.A.R.T ROBOTICS </h1>
+
+	<h4> Server is up, Initiating robot communication.</h4>
+
+	<script type="text/javascript" src="script.js"></script>
+
+	<span> Servo A : <div id="servoA"></div> Servo B : <div id="servoB"></div> Servo C : <div id="servoC"></div> </span>
+
+	<br>
+	<input type="string" name="command" id="command" />
+	<button onclick="controlBot()"> PING </button>
+
+
+</body>
+</html>

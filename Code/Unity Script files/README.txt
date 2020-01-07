@@ -1,0 +1,2 @@
+-> These are just the raw script files
+-> Please refer to the S.M.A.R.T Unity Project for all project files 

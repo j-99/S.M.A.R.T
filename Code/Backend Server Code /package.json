@@ -1,0 +1,31 @@
+{
+  "name": "socket_robotics",
+  "version": "1.0.0",
+  "description": "socket based multi-user drawing pad",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "JvanK",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xhiwankur/socket-robotics.git"
+  },
+  "keywords": [
+    "robotics",
+    "iot",
+    "websockets",
+    "unity"
+  ],
+  "bugs": {
+    "url": "https://github.com/Xhiwankur/socket-robotics/issues"
+  },
+  "homepage": "https://github.com/Xhiwankur/socket-robotics#readme"
+}
